@@ -1,0 +1,13 @@
+aggregate([
+      {
+        $match :{
+          inventoryType : "in",
+          organisation : new mongoose.Types.ObjectId(req.body.userId)
+        }
+      },
+      {
+        $group:{
+          _id : "$donar"
+        }
+      }
+    ]);

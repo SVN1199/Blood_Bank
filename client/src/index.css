@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Noto+Serif:ital,wght@1,300&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  margin: 0;
+  font-weight: 600;
+  user-select: none;
+
+}
+
+button{
+  border-radius: 16px !important;
+  box-shadow: none !important;
+  height: 40px !important;
+  color: white !important;
+}
+
+button :hover{
+  color: white !important;
+}
+
+input, textarea, select{
+  min-height: 40px !important;
+  border: 1px solid grey !important;
+  border-radius: 10px !important;
+  width: 100% !important;
+}
+
+input:focus , textarea:focus{
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+a:hover{
+  text-decoration: none !important;
+}
+
+.home{
+  background-color: #FF0000;
+}
+
+i{
+  font-size: 18px;
+}
+
+table{
+  border: 1px solid #FF0000 !important;
+  border-radius: 2px !important;
+}
+
+.Home{
+background: rgba(218,43,104,0.35);
+box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+backdrop-filter: blur(5.8px);
+-webkit-backdrop-filter: blur(5.8px);
+border-radius: 10px;
+ 
+}
+
+
+
+.button{
+  background-color: #d1285b;
+  color: white;
+}
+
+.inp{
+border-radius: 50%;
+}
+
+.span{
+  color : #d1285b;
+  font-weight: 1000;
+}
+
+.radio{
+  font-family: 'Montserrat', sans-serif;
+  color: #d1285b !important;
+  font-weight: 1000 !important;
+  accent-color: green !important;
+  
+}
+
+.radio:hover{
+  color: red !important;
+}
+
+hr{
+  border-top: 1px solid #d1285b;
+}
+
+.dont{
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
+.dont :hover{
+  color: #d1285b;
+}
+
+
+.log{
+  position: relative;
+  color:#d1285b ;
+  font-weight: bolder;
+}
+
+.form{
+  background-repeat: no-repeat;
+  background-size: 350px;
+  color: aliceblue;
+  background-position: center;
+  background-position-y: 15px;
+  background: whitesmoke;
+  backdrop-filter: saturate(180%) blur(10px);
+  box-shadow: 0px 9px 30px 0px rgba(141,25,25,1);
+  position: relative;
+}
+.lab{
+  font-weight: 900;
+}
+
+.label{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.link{
+  color: #d1285b !important;
+  text-align: center !important;
+  margin-top : 10px !important;
+}
+
+.link :hover{
+  color: #d1285b !important;
+}
+
+.page{
+  background-color: #d1285b;
+  min-height: 100%;
+}
+
+
+.group :hover{
+  background-color: #d1285b;
+}
+
+.text{
+  color: #d1285b;
+}
+
+#myVideo {
+  position: fixed !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  min-width: 100% !important; 
+  min-height: 100% !important;
+}
+
+.bar{
+  background-color:#F6358A;
+  border-radius: 15px;
+  border: 0.5px solid navy;
+}
+
+
+.inven{
+  background-color: #d1285b;
+}
+
+.addInv{
+  background-color: #FA2A55;
+}
+
+.inout{
+  color: black !important;
+}
+
+.modal label{
+  color: #d1285b !important;
+  font-weight: bold !important;
+}
+
+.modalStyle {
+  border-radius: 20px !important;
+}
+
+/*your selectors if needed*/
+.ant-modal-content {
+  border-radius: 20px !important;
+  border: 0.5px solid #640d0d !important;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px !important;
+  /* background: red; */
+}
+
+.ant-modal-title{
+  color: #d1285b !important;
+  font-size: bolder !important;
+}
+
+Table{
+  color: white !important;
+  font-weight: bolder !important;
+  border: none !important;
+  justify-content: center !important;
+  text-align: center !important;
+  
+}
+
+tr:hover {
+  color: black !important;
+  font-weight: bold !important;
+}
+
+.rowClassName1 {
+  background-color: #C71585 !important;
+  border-radius: 10px;
+  border-color: chartreuse !important;
+  border-width: 5px 0px;
+  border-style: solid;
+  font-weight: 900 !important;
+  
+}
+
+.rowClassName1 td:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.rowClassName1 td:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.title{
+  color: #FF4500 !important;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 1000 !important;
+  font-style: normal !important;
+}
+
+.heading{
+  font-weight: 900 !important;
+}
+
+th{
+  background-color: #F3E8EA !important;
+}
+
+th:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+th:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.tab{
+  justify-content: center !important;
+  
+}
+
+.custom-tooltip {
+  --bs-tooltip-bg: black;
+}
+
+.dash{
+  color: aqua;
+}
+
+.text{
+  color: white;
+  font-weight: 900;
+}
+
+.box{
+  border: 2px solid black;
+}
+
+.tt{
+  font-size: 25px !important;
+  color:white !important;
+  text-shadow:2px 2px  #640d0d;
+  font-weight: 900 !important;
+  text-align: center !important;
+  font-family: 𝙎𝙖𝙣𝙨-𝙎𝙚𝙧𝙞𝙛 𝘽𝙤𝙡𝙙 𝙄𝙩𝙖𝙡𝙞𝙘;
+}
